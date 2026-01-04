@@ -18,3 +18,9 @@ The values of feature vectors have a large range, which is why a Standard Scaler
 The entire dataset is randomly split (shuffled then split) into Train, Test and Validation datasets, where the *train* dataset consists of 60% of the data, the *valid* dataset consists of 20% of the data and the *test* dataset consists of the remaining 20% of the data. 
 
 The *train* dataset has an uneven distribution of Gamma's and Hadron's. So, a Random Oversampler is used to increase the number of instances of the weaker class (Hadrons). This is only done for the *train* dataset, and not for the unseen *valid* or *test* dataset.
+
+### Evaluation Metrics
+The different models used for classification are compared using the *classification report* which includes metrics like **Accuracy**, **Precision**, **Recall** and **F1 Score**. The Neural Network Classifier which was trained on different combinations of number of nodes, dropout, learning rate and batch size had the most Accuracy of 0.86. Graphs for Accuracy and Loss were plotted for Neural Network Classifier where loss is evaluated using Binary Cross Entropy Loss. While the Naive Bayes model performed most poorly with an Accuracy of only 0.73, the Support Vector Classifier model performed well with an accuracy of 0.85. The K-Nearest Neighbours Classifier and the Logistic Regression model performed moderately well with an Accuracy of 0.81 and 0.79 respectively.
+
+## Regression Models
+The *Regression-[Seoul-bike-dataset].ipynb* Colab Notebook consists of Regression models like Linear Regression and Regression using Neural Networks.
