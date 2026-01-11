@@ -24,3 +24,6 @@ The different models used for classification are compared using the *classificat
 
 ## Regression Models
 The *Regression-[Seoul-bike-dataset].ipynb* Colab Notebook consists of Regression models like Linear Regression and Regression using Neural Networks.
+
+### Dataset
+The dataset used is the "Seoul Bike Sharing Demand" dataset ([https://archive.ics.uci.edu/dataset/560/seoul+bike+sharing+demand]) from UCI Machine Learning Repository. The dataset contains weather information (Temperature, Humidity, Windspeed, Visibility, Dewpoint, Solar radiation, Snowfall, Rainfall), the number of bikes rented per hour and date information. It has 13 features and 8760 instances that are clean and of real or integer data type. 
